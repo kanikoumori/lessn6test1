@@ -106,7 +106,7 @@ function clearForm(){{
 <input id="weight" name="weight" value="{weight}" placeholder="例: 65">
 
 <button type="submit">計算</button>
-<button type="button" onclick="clearForm()">クリア</button>
+<button type="button" onclick="clearForm()">リセット</button>
 </form>
 
 {f'<div class="result">BMI: {bmi}<br>判定: {result}</div>' if bmi else ''}
